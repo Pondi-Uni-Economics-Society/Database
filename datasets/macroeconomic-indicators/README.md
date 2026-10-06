@@ -17,6 +17,10 @@ The builder writes `datasets/macroeconomic-indicators/macro_research.sqlite` loc
 
 To produce a detailed health report, add `--json health-report.json` to the audit command. The report tests source-file checksums and row counts, schema, SQLite integrity, foreign keys, data constraints, all series partitions, representative readback queries, and query plans. Timing measurements are informational and machine-dependent.
 
+## Query the CSVs with DuckDB
+
+For a no-server SQL workflow that reads the canonical CSVs directly, see the [DuckDB setup guide](duckdb/README.md), [view definitions](duckdb/setup.sql), and [example queries](duckdb/examples.sql). These create views over the CSV files; they do not require or commit a generated database binary.
+
 ## Reviewable release structure
 
 ```text
