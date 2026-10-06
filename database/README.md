@@ -93,6 +93,30 @@ The `--annual-only` option intentionally leaves the quarterly series empty; do n
 
 The IMF subscription-key environment variable is supported if the API requires one in a future refresh; never commit credentials. The script records retrieval URLs and row counts in `source_snapshots` and source dimensions in `source_series_metadata`.
 
+## Health audit and database readback tests
+
+Run the audit from the repository root after downloading/cloning the repository:
+
+```sh
+python3 database/scripts/health_check.py --root database --compact
+```
+
+The audit assembles the three SQLite archive parts in a temporary folder, opens the resulting database read-only, and removes the temporary copy when finished. To audit an already extracted SQLite file instead:
+
+```sh
+python3 database/scripts/health_check.py --database database/macro_research.sqlite --root database --compact --json health-report.json
+```
+
+The report scores explicit checks across SQLite integrity, schema, data validity, relationships, indicator coverage, real readback queries, CSV parity, query plans, and storage. It checks retrieval by country and indicator, chronological histories, joined descriptive records, latest values, and ranked results. JSON output includes every check, coverage spans, database/page sizes, query plans, and median timings. Timings are descriptive because hardware varies; they are not treated as a universal pass/fail speed limit. The percentage summarizes checks passed, not the probability that the data are correct. Critical corruption or missing core data caps the overall score.
+
+The audit is offline and uses Python's standard library. It does not change the source database or contact providers. CSV parity is checked when `--root` is supplied. Exit status is 0 when no checks fail, 1 for non-critical failures, and 2 for critical failures or an audit that cannot run.
+
+Run the audit module's self-tests (they use temporary sample databases and deliberately introduce known faults):
+
+```sh
+python3 -m unittest discover -s database/tests -v
+```
+
 ## Sources and attribution
 
 - World Bank, [World Development Indicators](https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators), accessed through the [Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392). WDI is licensed under CC BY 4.0. Credit the World Bank, cite indicator codes, and note that this release contains calculated and aggregated values.
