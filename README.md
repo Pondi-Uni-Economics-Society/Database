@@ -9,4 +9,4 @@ This repository is a reviewed collection of research datasets maintained by the 
 - The macro dataset's human-reviewable source is partitioned UTF-8 CSV, with a readable SQLite schema. Build a local SQLite database by running `python3 datasets/macroeconomic-indicators/scripts/build_database.py`.
 - Validate the source files and database with `python3 datasets/macroeconomic-indicators/scripts/health_check.py --source-root datasets/macroeconomic-indicators/source --compact`.
 
-Do not submit confidential, personal, restricted, or otherwise non-shareable data to this public repository. See the [deposit template](templates/dataset-deposit/README.template.md) before proposing a new dataset.
+Do not submit confidential, personal, restricted, or otherwise non-shareable data to this public repository. For the contribution steps, read the [member submission guide](governance/SUBMITTING_DATA.md), then use the [deposit template](templates/dataset-deposit/README.template.md) and [review checklist](governance/DEPOSIT_REVIEW_CHECKLIST.md).
