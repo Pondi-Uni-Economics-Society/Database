@@ -1,0 +1,29 @@
+dataset_id: macroeconomic-indicators
+title: Economics Society macroeconomic research indicators
+description: >-
+  Country-level annual and quarterly macroeconomic indicator observations curated
+  from the World Bank, IMF, and India's Office of the Economic Adviser.
+release_date: 2026-09-29
+geographic_coverage: World Bank economies; India-only WPI series
+temporal_coverage: 2000 onward; indicator-specific latest period
+unit_of_observation: country-indicator-period-source-series
+frequencies:
+  - annual
+  - quarterly
+maintainer: Pondicherry University Economics Society
+license: See source-specific terms in the sources table and dataset guide
+citation: >-
+  Pondicherry University Economics Society. Macroeconomic Research Indicators,
+  release 2026-09-29. Cite each upstream source and indicator as documented.
+files:
+  reference_tables:
+    - countries.csv
+    - indicators.csv
+    - sources.csv
+    - source_snapshots.csv
+    - source_series_metadata.csv
+    - schema_meta.csv
+  observation_partitions: observations/<frequency>/<indicator_code>[_<start-year>_<end-year>].csv
+null_encoding: '\N' means SQL NULL; literal strings beginning with backslash are escaped by doubling the leading backslash.
+rebuild: python3 datasets/macroeconomic-indicators/scripts/build_database.py
+health_check: python3 datasets/macroeconomic-indicators/scripts/health_check.py --source-root datasets/macroeconomic-indicators/source --compact

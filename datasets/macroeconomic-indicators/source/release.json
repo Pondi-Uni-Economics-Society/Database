@@ -1,0 +1,862 @@
+{
+  "database": "macroeconomic research dataset",
+  "files": {
+    "countries.csv": {
+      "rows": 217,
+      "sha256": "c9068c916f790cdf19bc7e564633770201c0ea3fd92f03160fe6acde3790a35d"
+    },
+    "indicators.csv": {
+      "rows": 40,
+      "sha256": "d41f4913159a07c1779fa2698e85bafec75aea3044faabd8c00faf92af9a5fc9"
+    },
+    "observations/annual/cpi_index_annual_wdi.csv": {
+      "frequency": "annual",
+      "indicator_code": "cpi_index_annual_wdi",
+      "rows": 4708,
+      "sha256": "3982bab7c38da95a0b6f16325fe20adfcb95afe701cab44f60b60a7ef792e96f"
+    },
+    "observations/annual/gdp_nominal_current_lcu_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_nominal_current_lcu_annual",
+      "rows": 5433,
+      "sha256": "ba55f191a99c4818b24eb644615769a128302e9aa4a19a465eee79cd2a03c0c1"
+    },
+    "observations/annual/gdp_nominal_current_usd_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_nominal_current_usd_annual",
+      "rows": 5428,
+      "sha256": "e9df2aa7505eae6beebd4ec40d0bde79552fdb952cd970a431c48f2ba7f5df22"
+    },
+    "observations/annual/gdp_nominal_growth_yoy_pct_annual_lcu.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_annual_lcu",
+      "rows": 5215,
+      "sha256": "5158cebe8d43ab68b4f505f572eea9ef7a12adf82969307fd7e5993df7bba232"
+    },
+    "observations/annual/gdp_per_capita_nominal_growth_yoy_pct_annual_lcu.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_nominal_growth_yoy_pct_annual_lcu",
+      "rows": 5215,
+      "sha256": "85fa0ee098c6b618be2551fc9be111e66f40503213260e6d8a8f42c8d17b22f9"
+    },
+    "observations/annual/gdp_per_capita_nominal_lcu_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_nominal_lcu_annual",
+      "rows": 5433,
+      "sha256": "e1c5acc535769fb66a595bf7cd4628b6f9b76698f4103d47f45cc35b57861359"
+    },
+    "observations/annual/gdp_per_capita_nominal_usd_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_nominal_usd_annual",
+      "rows": 5428,
+      "sha256": "b03e3e849629f26dfe7e0c92de8051ea91279619448aa618ee30077a4c39a2cd"
+    },
+    "observations/annual/gdp_per_capita_real_2015_usd_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_real_2015_usd_annual",
+      "rows": 5345,
+      "sha256": "fa48ba076446670dff6a783a7db6cd8e374c1e0a904078f88734942cdccb44ef"
+    },
+    "observations/annual/gdp_per_capita_real_growth_yoy_pct_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_real_growth_yoy_pct_annual",
+      "rows": 5354,
+      "sha256": "48577f16a97d29ca6e28b5529866d65adce5c6f74bd247d86eb931d86d7e8025"
+    },
+    "observations/annual/gdp_per_capita_real_lcu_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_per_capita_real_lcu_annual",
+      "rows": 5370,
+      "sha256": "93de06822facd7f9822c0b59c643f8590a7b251693174d2269353885d31c2009"
+    },
+    "observations/annual/gdp_real_constant_2015_usd_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_real_constant_2015_usd_annual",
+      "rows": 5345,
+      "sha256": "19dd68ba1b13bafc6b13b23f40861bc8ff4f4547e099c81caeb3e284c4f9f35a"
+    },
+    "observations/annual/gdp_real_constant_lcu_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_real_constant_lcu_annual",
+      "rows": 5370,
+      "sha256": "f53d3d6f09b8c6a3b8fa48cda20719e55f4114045a12ace6a6be7e80b8c755ea"
+    },
+    "observations/annual/gdp_real_growth_yoy_pct_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gdp_real_growth_yoy_pct_annual",
+      "rows": 5354,
+      "sha256": "46c15f9f139a37f8e9a0bc17bd6fe284bc3995542b69e07e8cbe9a6f3ca09fe2"
+    },
+    "observations/annual/gni_per_capita_ppp_current_intl_dollar_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "gni_per_capita_ppp_current_intl_dollar_annual",
+      "rows": 5016,
+      "sha256": "d185ec1a4d68891ca8d1ac3ed2cd35517ff1cfd026e095a6e9ebbf10de02118d"
+    },
+    "observations/annual/inflation_consumer_prices_yoy_pct_annual_wdi.csv": {
+      "frequency": "annual",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_annual_wdi",
+      "rows": 4684,
+      "sha256": "74c16fdf93218ff4eb27308745366d7a5b9a4fc0578bef66d7b457ec0ffa839e"
+    },
+    "observations/annual/life_expectancy_years_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "life_expectancy_years_annual",
+      "rows": 5425,
+      "sha256": "f7326cb65cf72d67e8550701a50ff7300137303bead0d92a1919e1d7ae76656d"
+    },
+    "observations/annual/population_total_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "population_total_annual",
+      "rows": 5642,
+      "sha256": "f4f47085cee57eeb2ac6b185eb33d822ab867d80920ced00e277c90453a3bbaa"
+    },
+    "observations/annual/poverty_headcount_at_3usd_2021_ppp_pct_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "poverty_headcount_at_3usd_2021_ppp_pct_annual",
+      "rows": 1862,
+      "sha256": "868bdf3cbd1c75a123edb8a1bd7e8d3c3c129a9b4e43cc9429d73e5f6aba6fc2"
+    },
+    "observations/annual/unemployment_rate_ilo_modeled_pct_annual.csv": {
+      "frequency": "annual",
+      "indicator_code": "unemployment_rate_ilo_modeled_pct_annual",
+      "rows": 4848,
+      "sha256": "98c982402b1f8626a02633add2e7f7a74c9636463e4b8049fb94388d34753271"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 970,
+      "sha256": "90060040276bee65c9b424ac007d04d061e8094a9c8453a2a3b94558d474c5a7"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 1384,
+      "sha256": "3490a172cf77823134af65b4182422a4e8b579c8cebb09db58261de5ba287685"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 1538,
+      "sha256": "fc6015129bf1cdafafdbd89b7a9dc9136f485499574efa190135dcc2bd841bb2"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 1518,
+      "sha256": "f42439cf07a46f3a239826a53fb42244d0334a6ee8a0873e3815960d03cbb279"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 1319,
+      "sha256": "ac4fa8ec729be5156e710f73b47f341be9f2849f2bded391adeb90e78f48b6e5"
+    },
+    "observations/quarterly/central_bank_policy_rate_pct_pa_quarterly_imf_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "central_bank_policy_rate_pct_pa_quarterly_imf",
+      "rows": 332,
+      "sha256": "5c51d888300804794ce42292fa58c58c0c673b93afbf1bb5d0ed6fdf03967314"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 1521,
+      "sha256": "0fc5dce8dc9724bb43dc32ce3333878fe9d7e5980ac76a7fbecfbac0afa4de2d"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2005_2005.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 451,
+      "sha256": "c8dd90c7da121cc2e2e9c58e9639889351f54ce7563fac511bee8f9450535701"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2006_2006.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 484,
+      "sha256": "a6dd6058126e93fc02006ebbcec9005e44e6cfc776ebf86c1036524db4095706"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2007_2007.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 507,
+      "sha256": "c59ff642b443dec87fa9e59cc2f1a8874a7ec50f8755dccbfcdb5168e425bb7a"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2008_2008.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 526,
+      "sha256": "1cfc6cbb35e34361e7e9c92e05a7aeb36a9551d25337684a8628f7e5cee88d12"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2009_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 543,
+      "sha256": "472fa802f05629253add142a6b7f343fb253f0f4bfcb69931ce1ed5aa00abe73"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2010_2010.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 712,
+      "sha256": "b7ed284daece16f024798ce158cad58a4ed9c4513ce37c2ba4a21129ced54761"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2011_2011.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 716,
+      "sha256": "0b62c1efdf4c1b6d5d2c20e50101705d065ca4ac46ecc7258e30083c4471438f"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2012_2012.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 720,
+      "sha256": "47fc009c3380e5d739e5424e4278da8b14970d9f545e3eab0e327fd5df9e8ec1"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2013_2013.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 722,
+      "sha256": "09578c6b8b31e6ac2f8aa3b4616555bfcf042bbd8e50860cca6dd20fabcaa03f"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2014_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 724,
+      "sha256": "3653aa1c03a416142532f4a89789eb86ac70f0ef501e8727dfcfbe987daf9502"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2015_2015.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 728,
+      "sha256": "86832be670942f6cb25568b843218b623a8e600070491092cc7a4c665189865a"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2016_2016.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 728,
+      "sha256": "267042317945242bae66388e9d73eaefb7d9c4884d713379f2c37e137cafe4d6"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2017_2017.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 717,
+      "sha256": "6492df3b6cfca81b67da659385b21ab6d5aa5c41c8799f31f5e82feb5bff0836"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2018_2018.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 711,
+      "sha256": "1c2dd679ba53a6057864376d78c3e547284a29fbc1b07892cdc842ac24ebed16"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2019_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 712,
+      "sha256": "36be8e8b3e08e897fbe70b5bfe9ddeb7baa2332c011de90f338e6a5800b3b7f5"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2020_2020.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 697,
+      "sha256": "bf1d8cc70f53a99e7f8cdb899b2cf24bb6bd6b7b549d2296771e96b9d16cd341"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2021_2021.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 691,
+      "sha256": "27d1ced10f1a85b0e3d3d30bcc94dc5b9b1ba0dc8e229e2166ae5dff51881cb4"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2022_2022.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 692,
+      "sha256": "55205fd03fe60bf385483141688fa6da00c5e725661e3b467beae612a6c78d74"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2023_2023.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 684,
+      "sha256": "8579024a0fdff1dd44f565b5541ed72e217536e430b5062e3fcb3b64507536e5"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2024_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 687,
+      "sha256": "2290cc2551067e6fda3a0327927c16c641ff2afdb10427d5c4a46f9d0f5272cb"
+    },
+    "observations/quarterly/cpi_index_all_items_quarterly_imf_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "cpi_index_all_items_quarterly_imf",
+      "rows": 967,
+      "sha256": "6144a177d004a15d88542d6a60860f161644a929e3427d01968101b809f97d96"
+    },
+    "observations/quarterly/gdp_nominal_growth_qoq_pct_quarterly_sa.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_qoq_pct_quarterly_sa",
+      "rows": 6515,
+      "sha256": "168a5e67198042d244b0699194e046ac2ee3508c151c7eb7bf194e2fff880b2f"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 1096,
+      "sha256": "9282199da3ae216d4db1a1982d7b123e55b0d0f32e91267fc64e360d9fff4326"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 1539,
+      "sha256": "7f125ee4bcc653d6879932d3f40796b3b5c93e344243f5d48e12981b3d6deee2"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 1752,
+      "sha256": "b013603d0f73799c8b67a80c1ec40cb649ba2ae9789b9f83c04f88a4746be7d8"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 2028,
+      "sha256": "ee0e41a6e242f3b71bdf95f8fae740c8e750d139d94ac7bccfeed130488c919f"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 2089,
+      "sha256": "8f54fd8921bfd132eb2d802d4c4b385150f6b7de6f7a5e2e6c61d2f3ccf8d23e"
+    },
+    "observations/quarterly/gdp_nominal_growth_yoy_pct_quarterly_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_growth_yoy_pct_quarterly",
+      "rows": 493,
+      "sha256": "a225af3da8ea33adefb58533c168887dafb926ab9d21a863aa0b64af1cefd4c7"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 1379,
+      "sha256": "fd61ff9a1e17045b62383f160ce9f77cadf70107031eddf2c358032f1365e5ba"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 1588,
+      "sha256": "03d985a0447f3daae7292c6dbf482f9a81b12526e820e4319f53359476b1040c"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 1802,
+      "sha256": "ebc0b33e6d841e7103848d5781c8422c546b87707350c3ccf444b843afd58885"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 2067,
+      "sha256": "9a9b6d403d86424f34b9d0a7d0d22c79f1145e7d53b468f23abae5c07d16a711"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 2100,
+      "sha256": "94fe83e9a9a665889fc1e48fda145a258546ac5bde9506ac14ee25a22e6692c7"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_nsa_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_nsa",
+      "rows": 497,
+      "sha256": "e6abf4a5294cf4b181c8f1d9e8b59bd786e055228808586180e7562b5421654e"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 1127,
+      "sha256": "63bfdc55099b7cf9fd01c37bf696ae4f3a81629d2f1193fc16ab5dd9217f75f4"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 1212,
+      "sha256": "deeb0031a034fcee8959e11e852d2dc67a9c786743318d746e070f0b5358082b"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 1272,
+      "sha256": "95de810833795c0cf93af91aeee3b766e02485f7972c2c06d7bfbb16a4fa0a66"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 1314,
+      "sha256": "e020ca867b15be70fd181867d9b4f56a7594abc550e3887b387f18138c3879fe"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 1308,
+      "sha256": "5f2b56cd6570ce3c800a790ae4a3d20d518df1b088b8da42898e4974f9ae6ab1"
+    },
+    "observations/quarterly/gdp_nominal_lcu_quarterly_sa_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_lcu_quarterly_sa",
+      "rows": 348,
+      "sha256": "ba9383415330c9338b2e216b286521c3567846abe8174798ec21ad1a6a5c8396"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_qoq_pct_quarterly_sa.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_qoq_pct_quarterly_sa",
+      "rows": 6515,
+      "sha256": "d6608453b8286543245d7b1b016f9e940d53c2bc92cd5a3087dce5fe430872b7"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1096,
+      "sha256": "039f03607a0375724a8a38eba5202b274e004e264edeea188e4864895fb9c06a"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1539,
+      "sha256": "e943f08af31d1109ff0a8a0d801b6dd7d4d45fb47eb28366da3fd9b4d706f628"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1752,
+      "sha256": "078b78740901d4eed5da4935267d6d0d1985ff38b13b57c373455e568b8ad4d5"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 2028,
+      "sha256": "4a3bf520bc483b9cba150773830afec46a667f7055165cbb48454857b5411e0e"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 2089,
+      "sha256": "aace39eb24d497563424098434a2e871c61dc3426643f44ef0857fcc62a349c4"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_growth_yoy_pct_quarterly_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_growth_yoy_pct_quarterly",
+      "rows": 492,
+      "sha256": "89341b1bdf38a7a59d806e59aa7af4a8b5e98ece684facfdd96bcfd44e07991e"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1379,
+      "sha256": "3324182640c5200e20106a42ec97117657706271507e81c918cd6f96c1fb33f7"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1588,
+      "sha256": "43ef694a76f11e1163d9baae5660a6847cb0283dd05a731746c431584a7b1e9e"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1802,
+      "sha256": "ffaca786794e5a446d1501cbf536d9a44c1dedfced14c9cd1f30579818916ed8"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 2067,
+      "sha256": "116768bf91575fb3f79a15b6bd330b3a7c8d50bbbbdfd14d1a77bc1c8c5ef3f1"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 2100,
+      "sha256": "4fa9a16c66ad92331827b2df5282eb2d1bc4cf7ebb7aa59e63bb0f89e3290b5c"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_nsa_estimate_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 496,
+      "sha256": "66976452eeff4f5b3a7b5aa22b137fa49dfea67d21897e1568413e30b0d07ecb"
+    },
+    "observations/quarterly/gdp_nominal_per_capita_lcu_quarterly_sa_estimate.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_nominal_per_capita_lcu_quarterly_sa_estimate",
+      "rows": 6581,
+      "sha256": "7201a33df9aace54dc349dc67331c591026c46264b55ded832a2e1d6a6cedd4c"
+    },
+    "observations/quarterly/gdp_real_growth_qoq_pct_quarterly_sa.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_growth_qoq_pct_quarterly_sa",
+      "rows": 6837,
+      "sha256": "e3caba33107b05d8d3029bb47337041872910f594b04e310db4ddcec065a40e9"
+    },
+    "observations/quarterly/gdp_real_growth_yoy_pct_quarterly.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_growth_yoy_pct_quarterly",
+      "rows": 8053,
+      "sha256": "9e762d9d6bb030e0c0dc3dac3032acc671d5d50558e2f495dcb86060f765a8b3"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 1131,
+      "sha256": "6e057f838b19882491eef4ca1477081cca8fb27863221c5e062a424eefe8c9b1"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 1348,
+      "sha256": "8ab9cb26ee9b1998d2664e2ce695adfa19aea85e1c153c3566003a77705a2738"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 1622,
+      "sha256": "c8cf61c61c71ad72034ba4d02fbe7f61fc379bd43aa18ce7a12abad82cd9b268"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 1915,
+      "sha256": "9c2f4d72b570f5dd034da6ecbaf13eac721029c0c654d95492c9844b69ebed19"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 1980,
+      "sha256": "6ee3ecd20c71010b55f33abbbc133e201b230901eae40418491d817b17ae451d"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_nsa_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_nsa",
+      "rows": 469,
+      "sha256": "07c9f3ab4d2ef2d696ad5c5b09e2d572f3e1a0f8a860fee5097428b69ed5e9bd"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 1155,
+      "sha256": "e2b5fea49d071d750e22b9246ed18a5f2840f77c594030b2fa9059235f6f4a01"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 1252,
+      "sha256": "a9da8a518bb338d2313f05b271910770d503a905a407912f4ef7b76c654c85cc"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 1328,
+      "sha256": "425483ee3ebaa746fbd63d90028c1967c5e28667c6893617f03a33f6f3180daa"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 1390,
+      "sha256": "721e8a3a803762e263d59dd5c53ae35c1d9e71642f804ba12f5f56942bbec61e"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 1407,
+      "sha256": "8721fcbcb2c72208b8e8d9212d9d2115945a644d9e7603690ff2a683540ccbe3"
+    },
+    "observations/quarterly/gdp_real_lcu_quarterly_sa_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_lcu_quarterly_sa",
+      "rows": 376,
+      "sha256": "aee366372d95c60c7d048f3c763299587e4e82703597c1056154669801ff6f89"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_qoq_pct_quarterly_sa.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_qoq_pct_quarterly_sa",
+      "rows": 6837,
+      "sha256": "004a019ea42a99f6e2ae61edddb198ac359dd2ffcf53a2564620de63b6ff3091"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 892,
+      "sha256": "31cdc90930d95f01b779d86481d5a283c7a97479f47a942c9cfa946c716071cd"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1303,
+      "sha256": "1aa459424e0bf6a81062f9695c9765320c27d899e8f7c88daa5553ac8becec6c"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1552,
+      "sha256": "714094dad846e4a535e2068648cf6e43b19274bdff130279ced4cb95630b5be0"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1876,
+      "sha256": "032d9d03195757df809d6ad578de7776adf008a3f2b58950061b09e134650224"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 1961,
+      "sha256": "eac8ed21802af56a1c0bfd13f927eb2dc96a58d4e49b747b7ca7769dab3a533e"
+    },
+    "observations/quarterly/gdp_real_per_capita_growth_yoy_pct_quarterly_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_growth_yoy_pct_quarterly",
+      "rows": 468,
+      "sha256": "f01105bf5b0d8fc184e3107150e8bede29f67910de4b51801fcd657ff7c01a6c"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1131,
+      "sha256": "9fe8400f819dd5e15ff27738610a8c2da58a9fb810610323322852b18c044b98"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1348,
+      "sha256": "f3372ce748ef24cf9a31aa13be267ba19f1fdf7830a31ec330c24012c74cad68"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1622,
+      "sha256": "3581db3649a1f62dc0346cd5bcc44e3ade33238167b81fb89defa4e36fdee5ca"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1915,
+      "sha256": "49f4e72dd5eb223dc0f08fb0b1258d509827d030dacd1dabd820c6fe88dfd974"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 1980,
+      "sha256": "77da8cb9933c8274d2efe4a0031199af9ddbfd91f430727288ef8857709b165b"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_nsa_estimate_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_nsa_estimate",
+      "rows": 468,
+      "sha256": "d06cb904db3b206de6c4a6d129d4650c5215fe35db45e7305774b8456b985536"
+    },
+    "observations/quarterly/gdp_real_per_capita_lcu_quarterly_sa_estimate.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "gdp_real_per_capita_lcu_quarterly_sa_estimate",
+      "rows": 6908,
+      "sha256": "9f596fb4ff5fa666581960a87889e92341e421e73d248f33b15e015110319416"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 1192,
+      "sha256": "e315d6221a80c9e2be51068b1e8fe5174012f62425cb022d2b6006d3d4e2053b"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2005_2005.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 329,
+      "sha256": "6f0c367aff1b07543cc7ed26edf1c42599c1169611a206293e0f787ed0da8ce2"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2006_2006.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 451,
+      "sha256": "42e83809b22224baad69b4afc59dc39ed2d5265409cca44d7af756766fec08c8"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2007_2007.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 484,
+      "sha256": "1d7b6d6054c32da4c45407301dc7fd2f47300802de17140e97500406c1329de3"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2008_2008.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 507,
+      "sha256": "83ad050612cf826b892d88d43ccaf47eae97e879318990edce6c8a4f1aa58243"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2009_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 526,
+      "sha256": "15623e8be8bd803d647c6ecef50df9d387a97f3210675ee29efdfe3e030c6713"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2010_2010.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 543,
+      "sha256": "ed43a7072543da8512052c600e926d3865110901b04182ba3819c5bb3333c02d"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2011_2011.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 712,
+      "sha256": "dd34a123fba88543bf9f94b457e478d96d641a1e4c0817012deb2d8221826766"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2012_2012.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 716,
+      "sha256": "4d92fc404af2385452b5c84ba014b318f12a481d9711bcc16b7c272d0b73431c"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2013_2013.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 718,
+      "sha256": "7287d912f72f13e1134f9de3608f5606dbd6dddecb682f7a12f86034517ea916"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2014_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 720,
+      "sha256": "0748639925eecbd28ae7dc7bd77abb5c888070d71cde5994a6fea926ab162873"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2015_2015.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 720,
+      "sha256": "4427af262f9ebdad6fdc7efa3d7b04ac0d5bd9d6d5685e9725d226a5ac286088"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2016_2016.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 728,
+      "sha256": "7b88684259b571da54d6e1d899bdb2524932574863898baeaa32deb655ab4930"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2017_2017.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 713,
+      "sha256": "240fab77dffc41930505836b5b932111c1651f498610071b6d37949fd1beaebb"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2018_2018.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 711,
+      "sha256": "efebfa94f603292eccfe16cfe69397f52333abd35faae25668242e3cea8db348"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2019_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 711,
+      "sha256": "fadba26f9e011ade08044f60710265cdfdbcefd961843f57f9e02c6ee94a0558"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2020_2020.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 697,
+      "sha256": "967ded7f49da9d3709a18e5a0bc9db04bfba8a3b9c942cc4965da91d30c41ba0"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2021_2021.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 690,
+      "sha256": "8318662a80fa7f6171151ba18e406b58c889f668aaa60e3c23843a3cbaf12847"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2022_2022.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 691,
+      "sha256": "05eff9720e7da72fbdb3bf0a57d1ad907f1ea533f6e69471b798883d1b5ba902"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2023_2023.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 684,
+      "sha256": "cc73014f458f4162fced2ea9be2de62edeabddf65e543bd8b35a31bb182c8e26"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2024_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 682,
+      "sha256": "91b25c433e07329b9a158b1e70ceebdf4721989e6161a48667aad013d935765b"
+    },
+    "observations/quarterly/inflation_consumer_prices_yoy_pct_quarterly_imf_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "inflation_consumer_prices_yoy_pct_quarterly_imf",
+      "rows": 966,
+      "sha256": "be72ee785be6c1cc9369b2ea5ae2f7668b226698a36963e0445f66dc474045ac"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2000_2004.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 1066,
+      "sha256": "129717b819e8d2ba193b5def639b6789c5264f12e23c0cedb88d64c550598067"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2005_2009.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 1278,
+      "sha256": "5d29b7749a92c9af6c38f26583883881782c6df749ef4f8e8e70f4c1f4517150"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2010_2014.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 1420,
+      "sha256": "52c649cd4d6cb609ea003d605e09389d3d5d880792453bd2184863b26685895c"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2015_2019.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 1317,
+      "sha256": "760271051692e215a0e1cc1cfe6a8af87e156d7ff3433bdcdb7f815e43b9d40b"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2020_2024.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 940,
+      "sha256": "927a04a3293be4b9c245a4bcf4cfdf4b5ec4e9b506c12fb2d80e0ba8063e2024"
+    },
+    "observations/quarterly/producer_price_index_quarterly_imf_2025_2029.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "producer_price_index_quarterly_imf",
+      "rows": 188,
+      "sha256": "442d8e3b8274bcd9b4df6aedeecfd01902379b19ea4f1845ccf7ed0d059cc5c5"
+    },
+    "observations/quarterly/wholesale_price_index_quarterly.csv": {
+      "frequency": "quarterly",
+      "indicator_code": "wholesale_price_index_quarterly",
+      "rows": 13,
+      "sha256": "75502df4cfa6e5f2f884c315fd361ee89159fac98391bd7dbcbc52e56b966a49"
+    },
+    "schema_meta.csv": {
+      "rows": 7,
+      "sha256": "faec2e42e31e01a35764da035e058c2dc5616b2abe80f0c5b7b619cd69f39be8"
+    },
+    "source_series_metadata.csv": {
+      "rows": 691,
+      "sha256": "6e850dfa541b25b7418bc6b9d929f7c9f2de635d9494fb070ae29484aa85a990"
+    },
+    "source_snapshots.csv": {
+      "rows": 9,
+      "sha256": "0e91b00f1f41b534dbb1c8c8fd3719a13e0967912774c365c6be5d1c32beb200"
+    },
+    "sources.csv": {
+      "rows": 6,
+      "sha256": "d1ab816d972f0b35268f20d5f143d1a9dce53061648a8451dc748d0942a5a590"
+    }
+  },
+  "format_version": 1,
+  "null_token": "\\N",
+  "release": "2026-09-29",
+  "tables": {
+    "countries": "countries.csv",
+    "indicators": "indicators.csv",
+    "schema_meta": "schema_meta.csv",
+    "source_series_metadata": "source_series_metadata.csv",
+    "source_snapshots": "source_snapshots.csv",
+    "sources": "sources.csv"
+  }
+}

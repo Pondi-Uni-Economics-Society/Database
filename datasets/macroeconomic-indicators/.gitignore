@@ -1,0 +1,5 @@
+# Rebuilt working database and SQLite sidecars; version the schema and CSV source instead.
+macro_research.sqlite
+macro_research.sqlite-wal
+macro_research.sqlite-shm
+*.building

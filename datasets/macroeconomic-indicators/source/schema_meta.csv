@@ -1,0 +1,8 @@
+key,value
+country_source_order,World Bank three-letter code order
+frequency_policy,"Annual WDI indicators from 2000; IMF quarterly GDP and quarterly price/rate series where reported; monthly IMF CPI, policy-rate and PPI source observations are aggregated and not stored; India WPI is quarterly from the official 2022-23 base series."
+gap_policy,No zero-fill or unlabelled interpolation. CPI/PPI/WPI quarterly means require three monthly source observations; quarter-end policy rates use the latest reported month in each quarter. Quarterly GDP per capita is estimated from annual population interpolation. Poverty observations remain survey-year based.
+historical_start,2000
+release_date,2026-09-29
+retrieved_at_utc,2026-09-29T17:05:40+00:00
+schema_version,1.0
